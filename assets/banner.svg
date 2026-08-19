@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">my-skills</title>
+  <desc id="description">Reusable agent workflows for Codex, Claude Code, and any harness.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#141B33"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(170 200) rotate(16) scale(360 280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFC" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7C5CFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tile" x1="105" y1="130" x2="235" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9B87FF"/>
+      <stop offset="1" stop-color="#6E4AF4"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#AAB3D1" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#AAB3D1" fill-opacity="0.11"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" values="0 0 0 0 0.486 0 0 0 0 0.361 0 0 0 0 0.988 0 0 0 0.55 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="frame" x1="64" y1="96" x2="272" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202A4B"/>
+      <stop offset="1" stop-color="#11172B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="400" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="400" rx="24" fill="url(#ambient)"/>
+  <path d="M322 84V316" stroke="#AAB3D1" stroke-opacity="0.12"/>
+
+  <g aria-label="my-skills logo mark">
+    <rect x="64" y="96" width="208" height="208" rx="44" fill="url(#frame)" stroke="#AAB3D1" stroke-opacity="0.14"/>
+    <rect x="76" y="108" width="184" height="184" rx="35" fill="none" stroke="#7C5CFC" stroke-opacity="0.16"/>
+    <g filter="url(#glow)">
+      <path d="M110 207L163 176.5C167.3 174 172.7 174 177 176.5L230 207C235.3 210.1 235.3 214.9 230 218L177 248.5C172.7 251 167.3 251 163 248.5L110 218C104.7 214.9 104.7 210.1 110 207Z" fill="#7C5CFC" fill-opacity="0.35"/>
+      <path d="M110 185L163 154.5C167.3 152 172.7 152 177 154.5L230 185C235.3 188.1 235.3 192.9 230 196L177 226.5C172.7 229 167.3 229 163 226.5L110 196C104.7 192.9 104.7 188.1 110 185Z" fill="#7C5CFC" fill-opacity="0.68"/>
+      <path d="M110 163L163 132.5C167.3 130 172.7 130 177 132.5L230 163C235.3 166.1 235.3 170.9 230 174L177 204.5C172.7 207 167.3 207 163 204.5L110 174C104.7 170.9 104.7 166.1 110 163Z" fill="url(#tile)"/>
+      <path d="M129 167.5L164.5 147C167.9 145 172.1 145 175.5 147L211 167.5L175.5 188C172.1 190 167.9 190 164.5 188L129 167.5Z" fill="#C8BEFF" fill-opacity="0.25"/>
+    </g>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="360" y="169" fill="#FFFFFF" font-size="64" font-weight="750" letter-spacing="-2">my-skills</text>
+    <text x="362" y="220" fill="#AAB3D1" font-size="22" font-weight="400" letter-spacing="0.05">Reusable agent workflows for Codex · Claude Code · any harness</text>
+
+    <g font-size="14" font-weight="600" fill="#D9DDF0" letter-spacing="0.15">
+      <g>
+        <rect x="362" y="258" width="118" height="34" rx="17" fill="#AAB3D1" fill-opacity="0.08" stroke="#AAB3D1" stroke-opacity="0.18"/>
+        <circle cx="380" cy="275" r="3.5" fill="#7C5CFC"/>
+        <text x="391" y="280">Korean-first</text>
+      </g>
+      <g>
+        <rect x="492" y="258" width="160" height="34" rx="17" fill="#AAB3D1" fill-opacity="0.08" stroke="#AAB3D1" stroke-opacity="0.18"/>
+        <circle cx="510" cy="275" r="3.5" fill="#7C5CFC"/>
+        <text x="521" y="280">SKILL.md + scripts</text>
+      </g>
+      <g>
+        <rect x="664" y="258" width="70" height="34" rx="17" fill="#AAB3D1" fill-opacity="0.08" stroke="#AAB3D1" stroke-opacity="0.18"/>
+        <circle cx="682" cy="275" r="3.5" fill="#7C5CFC"/>
+        <text x="693" y="280">MIT</text>
+      </g>
+    </g>
+  </g>
+</svg>
