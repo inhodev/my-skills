@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Organize History"
+  short_description: "누적 변경을 기능별 상세 한글 커밋으로 정리하고 푸시"
+  default_prompt: "$git-organize-history 지금까지 쌓인 변경을 기능별로 나누고, 실제 줄바꿈이 적용된 상세한 한글 커밋 메시지로 커밋한 다음 현재 브랜치의 안전한 GitHub 원격 브랜치에 푸시하고 원격 반영까지 확인해줘. 계획만 보여주고 멈추지 말고 같은 작업에서 끝까지 진행해줘."

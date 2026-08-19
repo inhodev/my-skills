@@ -1,0 +1,6 @@
+interface:
+  display_name: "앱 리뷰 광산"
+  short_description: "앱 리뷰에서 불만·요청·MVP 기회를 발굴"
+  default_prompt: "Use $app-review-miner to analyze app reviews in Korean, separate evidence from assumptions, anonymize personal data, avoid review manipulation or terms-violating collection, compare multiple apps when provided, and produce a report using the skill template."
+policy:
+  allow_implicit_invocation: true

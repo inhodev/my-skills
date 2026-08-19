@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video UX Observer"
+  short_description: "User-test video UX observation and research synthesis workflow"
+  default_prompt: "Use $video-ux-observer to analyze this user-test video and produce both a grounded UX observation report and a separate user research synthesis."

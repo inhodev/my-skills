@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile App Studio"
+  short_description: "단일 앱 완성과 여러 앱 야간 공장 중 올바른 실행 경로를 선택합니다"
+  default_prompt: "Use $mobile-app-studio to choose the correct app-building workflow for this request."

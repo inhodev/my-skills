@@ -1,0 +1,4 @@
+interface:
+  display_name: "Night App Factory"
+  short_description: "여러 앱을 세션 큐로 운영하고 동시 제작을 두 개로 제한합니다"
+  default_prompt: "Use $night-app-factory to orchestrate these app ideas through durable sessions, a fair queue, at most two maker jobs, unattended recovery, and a verified morning report."

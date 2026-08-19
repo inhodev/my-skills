@@ -1,0 +1,4 @@
+interface:
+  display_name: "App QA Gate"
+  short_description: "헤드리스 우선 앱 검증과 QA 단계 판정 워크플로"
+  default_prompt: "Use $app-qa-gate to validate this app headlessly and decide whether simulator or device QA is required."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS TestFlight Fast Publisher"
+  short_description: "App Studio 우선으로 iOS 앱을 빠르게 TestFlight 배포"
+  default_prompt: "Use $ios-testflight-publisher to route this iOS project through the App Studio fast path and upload only if I explicitly authorize it."

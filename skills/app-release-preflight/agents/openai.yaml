@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Release Preflight"
+  short_description: "앱 배포 전 비밀키·버전·운영 항목을 점검합니다"
+  default_prompt: "Use $app-release-preflight to inspect this app before release and return a clear go or block decision."

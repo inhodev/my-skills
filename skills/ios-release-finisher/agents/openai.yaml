@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS Release Finisher"
+  short_description: "iOS 앱의 실제 출시 준비를 끝까지 정리하고 차단 요소를 제거"
+  default_prompt: "Use $ios-release-finisher to inspect this iOS app and complete every safe release-preparation task without stopping for deferrable inputs."

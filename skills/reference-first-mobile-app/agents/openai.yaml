@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference-First Mobile App"
+  short_description: "시안 10장에서 실제 동작하는 한국어 우선 모바일 앱을 완성합니다"
+  default_prompt: "Use $reference-first-mobile-app to build this one app from its description and ten reference screens through implementation, localization, capture, and visual QA."
