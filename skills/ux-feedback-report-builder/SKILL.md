@@ -1,6 +1,6 @@
 ---
 name: ux-feedback-report-builder
-description: Build the client-facing PDF "사용자 피드백 보고서" (user feedback report, 20p/30p, A4) from per-participant usability-test analysis markdown, screen recordings and extracted frames. Use after video-ux-observer (or any per-tester analysis) when the user asks to write, assemble, redesign, fix, extend, or QA a Korean UX feedback report / 피드백 보고서 / 사용자 테스트 리포트 / 크몽 납품 보고서: page structure, evidence screenshots with red-box marks, crop rules per device, anti-AI-tone writing rules, density targets, HTML→PDF rendering and pre-delivery QA.
+description: "[크몽 피드백에서 사용] Build the client-facing PDF "사용자 피드백 보고서" (user feedback report, 20p/30p, A4) from per-participant usability-test analysis markdown, screen recordings and extracted frames. Use after video-ux-observer (or any per-tester analysis) when the user asks to write, assemble, redesign, fix, extend, or QA a Korean UX feedback report / 피드백 보고서 / 사용자 테스트 리포트 / 크몽 납품 보고서: page structure, evidence screenshots with red-box marks, crop rules per device, anti-AI-tone writing rules, density targets, HTML→PDF rendering and pre-delivery QA."
 ---
 
 # UX Feedback Report Builder
