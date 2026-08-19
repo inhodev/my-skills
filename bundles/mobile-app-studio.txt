@@ -1,0 +1,7 @@
+mobile-app-studio
+reference-first-mobile-app
+night-app-factory
+app-qa-gate
+app-release-preflight
+ios-release-finisher
+ios-testflight-publisher
