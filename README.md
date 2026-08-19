@@ -37,8 +37,20 @@ cd my-skills
 | `ios-release-finisher` | [출시직전 appstore connect올리는 용] App Store 메타데이터, 법무·개인정보, 스크린샷, 심사 준비 | `$ios-release-finisher 이 앱의 출시 준비를 끝까지 진행해줘` |
 | `ios-testflight-publisher` | [testflight 올리는 용] iOS·Flutter TestFlight 등록, 빌드, 업로드, 처리 상태 확인 | `$ios-testflight-publisher 이 앱을 TestFlight에 올려줘` |
 | `video-ux-observer` | [크몽 피드백에서 사용] 사용성 테스트 영상에서 UX 문제·긍정 순간·사용자 연구 추출 | `$video-ux-observer 이 사용자 테스트 영상을 분석해줘` |
+| `ux-feedback-report-builder` | [크몽 피드백에서 사용] 테스터별 분석 md·프레임으로 납품용 사용자 피드백 보고서 PDF(20p/30p) 제작·QA. 구조·캡처 크롭·빨간 네모·AI티 금지·여백 기준 전부 포함 | `$ux-feedback-report-builder 이 분석 문서들로 30p 보고서 만들어줘` |
 | `app-review-miner` | [앱스토어 리뷰 수집 스킬] 앱스토어 리뷰를 수집·정규화하고 불만·기능 요청·MVP 기회 추출 | `$app-review-miner 이 앱 리뷰에서 MVP 기회를 찾아줘` |
 | `git-organize-history` | [깃허브 올릴때 기능별로 한글 커밋메세지] 누적 변경을 기능별 커밋으로 나누고 상세 한국어 커밋 작성 | `$git-organize-history 변경을 기능별로 커밋하고 푸시해줘` |
+
+## 사용자 테스트 피드백 보고서 파이프라인
+
+크몽 "앱/서비스 사용자 테스트 피드백" 납품에 쓰는 두 스킬은 순서대로 이어집니다.
+
+1. `video-ux-observer` : 테스터 녹화 영상 → 음성 전사, 프레임, 테스터별 UX 관찰 md
+2. `ux-feedback-report-builder` : 테스터별 md + 프레임 → 클라이언트 납품용 A4 PDF(5명 20p / 8명 30p)
+
+`ux-feedback-report-builder`는 여러 차례 납품하며 클라이언트에게 실제로 지적받은 규칙을 전부 담고 있습니다
+(`references/lessons-log.md`에 날짜별 원문). 캡처 크롭 프리셋, 빨간 네모 좌표 자동 산출, 여백률·AI티 자동 검사,
+Chrome 렌더 스크립트와 페이지 타입별 HTML 템플릿이 함께 들어 있습니다. 새 지적이 생기면 이 스킬에 바로 반영합니다.
 
 ## Mobile App Studio
 

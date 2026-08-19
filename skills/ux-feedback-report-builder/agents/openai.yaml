@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Feedback Report Builder"
+  short_description: "테스터별 분석 md와 프레임으로 납품용 사용자 피드백 보고서 PDF(20p/30p) 제작·QA"
+  default_prompt: "Use $ux-feedback-report-builder to turn these per-participant usability analyses and frames into the client-facing 사용자 피드백 보고서 PDF, following the structure, screenshot, red-box and writing rules exactly."
